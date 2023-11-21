@@ -1,4 +1,29 @@
 body{
-    background-color: black;
-    color: white;
+    margin: 0;
+}
+.countainer{
+    display: grid;
+    grid-template-columns: 1fr 3.25fr;
+    grid-template-rows: 0.9fr 1.1fr 6fr;
+    height: 100vh;
+}
+.sidebar{
+    background-color: blue;
+    grid-row: span 3;
+
+}
+.maincontent{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr ;
+    grid-template-rows: 1fr 1fr 1fr;
+    gap: 1.5rem;
+    margin: 1rem;
+}
+#element-3{
+grid-row: span 3;
+
+
+}
+#element-6{
+grid-column: span 1.5;
 }
